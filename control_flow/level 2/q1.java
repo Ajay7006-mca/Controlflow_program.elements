@@ -9,6 +9,7 @@ public class q1 {
         int number = sc.nextInt();
         if (number < 1) {
             System.out.println("Enter a natural number.");
+            sc.close();
             return;
         }
         for (int i = 1; i <= number; i++) {
@@ -17,6 +18,7 @@ public class q1 {
             } else {
                 System.out.println(i + " is odd number");
             }
+            System.out.println("Current number is: " + i);
         }
     }
 }
